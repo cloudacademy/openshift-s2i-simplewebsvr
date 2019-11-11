@@ -1,0 +1,7 @@
+#!/bin/bash -e
+
+echo " -----> Copy static web server files into USER 1001 default home directory"
+
+mv /tmp/src/* /opt/app-root/src/
+
+echo finished!

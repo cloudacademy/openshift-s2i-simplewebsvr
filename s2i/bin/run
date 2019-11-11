@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo " -----> Start Python SimpleHTTPServer web server port 8080"
+
+exec python -m SimpleHTTPServer 8080
