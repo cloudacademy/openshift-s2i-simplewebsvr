@@ -1,5 +1,5 @@
 # cloudacademydevops/simplewebsvr
-FROM openshift/base-centos7
+FROM quay.io/sclorg/s2i-base-c10s
 
 # Put the maintainer name in the image metadata
 LABEL maintainer="Jeremy Cook <jeremy.cook@cloudacademy.com>"
